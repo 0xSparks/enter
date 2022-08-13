@@ -1,0 +1,30 @@
+server:
+    port: 3001
+spring:
+    application:
+        name: enter-admin-biz
+    datasource:
+        url: jdbc:mysql://localhost:3306/employee_service_db?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        name: defaultDataSource
+        username: 'root'
+        password: 'root'
+
+feign:
+    httpclient:
+        enabled: true
+    sentinel:
+        enabled: on # openfeign 和 sentinel 的整合
+
+ribbon:
+    ReadTimeout: 1000   # 请求处理的超时时间，默认值 5000
+    MaxAutoRetries: 2   # 最大重试次数，默认值 0
+    MaxAutoRetriesNextServer: 0    # 切换实例的重试次数，默认值 1
+    OkToRetryOnAllOperations: true    # 默认 false 表示重试设置只对 GET 请求生效
+    eager-load:
+        enabled: true
+        clients: enter-admin-biz
+#logging:
+#    level:
+#        cool.sparks.enteradmin.api.http: DEBUG
+
