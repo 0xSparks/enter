@@ -8,33 +8,16 @@
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <artifactId>enter-framework</artifactId>
+    <packaging>pom</packaging>
     <modules>
-        <module>enter-admin-biz</module>
+        <module>enter-openapi</module>
     </modules>
 
-    <artifactId>enter-admin</artifactId>
-    <packaging>pom</packaging>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <!--lombok-->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-<!--            provided 类型的scope只会在项目的编译、测试阶段起作用-->
-            <scope>provided</scope>
-        </dependency>
-
-        <!-- spring boot 自定义配置提示 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
-        </dependency>
-    </dependencies>
 
 </project>

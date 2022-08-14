@@ -88,6 +88,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/enter-user/pom.xml" />
+        <option value="$PROJECT_DIR$/enter-commons/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

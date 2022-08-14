@@ -12,20 +12,17 @@
         <module>enter-dependency</module>
         <!--启动项目-->
         <module>enter-admin</module>
-        <module>enter-admin</module>
+        <module>enter-user</module>
+        <module>enter-framework</module>
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<!--        全局版本-->
         <revision>1.0</revision>
     </properties>
-
-    <dependencies>
-
-    </dependencies>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -37,8 +34,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-
 
     <!-- 使用 阿里云 Maven 源 -->
     <repositories>

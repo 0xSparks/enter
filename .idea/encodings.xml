@@ -5,10 +5,23 @@
     <file url="file://$PROJECT_DIR$/enter-admin/enter-admin-biz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/enter-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/enter-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-dependency/${project.basedir}/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/enter-dependency/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/enter-dependency/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-framework/enter-openapi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-framework/enter-openapi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-framework/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/enter-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/enter-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-user/enter-user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-user/enter-user-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-user/enter-user-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-user/enter-user-biz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/enter-user/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
