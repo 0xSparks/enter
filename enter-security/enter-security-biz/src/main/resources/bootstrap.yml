@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml    #指定文件类型 默认properties
+        group: SPARKS-A
+        shared-configs: #公共配置
+          - data-id: enter-common.yaml
+            group: COMMON-A

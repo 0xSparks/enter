@@ -1,0 +1,16 @@
+server:
+    port: 3005
+spring:
+    application:
+        name: enter-security-biz
+
+#    jpa:
+#        properties:
+#            hibernate:
+#                dialect: org.hibernate.dialect.MySQL8Dialect    #sql方言
+#                format_sql: true
+#                hbm2ddl:
+#                    auto: update
+#        show-sql: true  #控制台显示sql语句
+
+

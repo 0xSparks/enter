@@ -90,16 +90,23 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/enter-user/pom.xml" />
         <option value="$PROJECT_DIR$/enter-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/enter-framework/enter-openapi/pom.xml" />
+        <option value="$PROJECT_DIR$/enter-dependency/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/enter-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/enter-framework/enter-security/pom.xml" />
         <option value="$PROJECT_DIR$/enter-server/pom.xml" />
       </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
   <component name="SuppressionsComponent">
     <option name="suppComments" value="[]" />

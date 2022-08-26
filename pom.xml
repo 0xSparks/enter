@@ -11,9 +11,11 @@
     <modules>
         <module>enter-dependency</module>
         <!--启动项目-->
-        <module>enter-admin</module>
+        <module>enter-commons</module>
         <module>enter-user</module>
         <module>enter-framework</module>
+        <module>enter-security</module>
+        <module>enter-gateway</module>
     </modules>
 
     <properties>
