@@ -1,4 +1,4 @@
-package cool.sparks.security.service.auth;
+package cool.sparks.security.service.permission;
 
 /**
  * @author Sparks

@@ -5,19 +5,18 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.ToString;
 
-import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
-import java.util.Objects;
+
 
 /**
  * @author Sparks
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-@TableName("sys_login_log")
-public class UserPo {
+@TableName("sys_user")
+public class UserPo implements Serializable {
     /**
      * 用户ID
      */

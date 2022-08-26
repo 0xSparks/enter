@@ -1,16 +1,20 @@
-package cool.sparks.security.service.impl;
-import cool.sparks.security.dao.po.UserPo;
-import cool.sparks.security.service.PermissionService;
+package cool.sparks.security.service.permission;
 
-import java.util.Set;
+import cn.hutool.core.util.ArrayUtil;
 
 /**
  * @author Sparks
  *
  */
 public class PermissionServiceImpl implements PermissionService {
+
     @Override
-    public Set<String> getPermissions(UserPo userPo) {
-        return null;
+    public boolean hasAnyPermissions(Long userId, String... permissions) {
+
+        if(ArrayUtil.isEmpty(permissions)){
+            return true;
+        }
+
+        return false;
     }
 }

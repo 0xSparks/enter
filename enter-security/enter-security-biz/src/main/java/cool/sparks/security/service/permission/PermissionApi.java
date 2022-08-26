@@ -1,4 +1,4 @@
-package cool.sparks.security.service.api;
+package cool.sparks.security.service.permission;
 
 /**
  * 权限Api

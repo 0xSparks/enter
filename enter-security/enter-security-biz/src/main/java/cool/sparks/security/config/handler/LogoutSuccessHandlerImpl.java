@@ -1,4 +1,4 @@
-package cool.sparks.security.handler;
+package cool.sparks.security.config.handler;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;

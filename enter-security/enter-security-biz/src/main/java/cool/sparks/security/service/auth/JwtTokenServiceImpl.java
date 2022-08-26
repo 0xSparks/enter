@@ -1,6 +1,6 @@
 package cool.sparks.security.service.auth;
 
-import org.springframework.security.core.token.TokenService;
+import cn.hutool.core.util.IdUtil;
 
 /**
  * @author Sparks
@@ -8,7 +8,8 @@ import org.springframework.security.core.token.TokenService;
  */
 public class JwtTokenServiceImpl implements JwtTokenService {
     @Override
-    public String createToken(String token) {
+    public String createToken(LoginUser loginUser) {
+        loginUser.setToken(IdUtil.simpleUUID());
         return null;
     }
 }

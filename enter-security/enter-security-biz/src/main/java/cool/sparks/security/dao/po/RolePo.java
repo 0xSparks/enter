@@ -1,13 +1,13 @@
 package cool.sparks.security.dao.po;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.ToString;
 
-import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
-import java.util.Objects;
 
 /**
  * @author Sparks
@@ -15,8 +15,9 @@ import java.util.Objects;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-@TableName("sys_role_menu")
-public class RolePo {
+@TableName("sys_role")
+public class RolePo implements Serializable {
+    @TableId(type = IdType.AUTO)
     private Long roleId;
     private String roleName;
     private String roleKey;

@@ -1,6 +1,4 @@
-package cool.sparks.security.service.api;
-
-import cool.sparks.security.service.permission.PermissionService;
+package cool.sparks.security.service.permission;
 
 import javax.annotation.Resource;
 

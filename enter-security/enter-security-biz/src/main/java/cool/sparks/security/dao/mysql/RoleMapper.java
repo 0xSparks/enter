@@ -7,4 +7,5 @@ import cool.sparks.security.dao.po.RolePo;
  * 角色
  */
 public interface RoleMapper extends BaseMapper<RolePo> {
+
 }

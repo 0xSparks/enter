@@ -1,8 +1,8 @@
-package cool.sparks.security.handler;
+package cool.sparks.security.config.handler;
 
 import cool.sparks.exception.GlobalHttpResponseCode;
-import cool.sparks.security.util.ServletUtils;
 import cool.sparks.util.ResponseResult;
+import cool.sparks.util.ServletUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
@@ -23,7 +23,7 @@ public class AuthenticationEntryPointImpl implements AuthenticationEntryPoint {
     @Override
     public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException e)
             throws IOException, ServletException {
-        log.error("未认证的处理:{}",UNAUTHORIZED);
+        log.info("认证入口点:{}",e.toString());
         ServletUtils.writeJSON(response, ResponseResult.error(UNAUTHORIZED));
     }
 }

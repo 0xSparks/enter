@@ -1,4 +1,4 @@
-package cool.sparks.security.controller.dto;
+package dto;
 
 import lombok.Data;
 

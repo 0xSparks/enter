@@ -3,6 +3,8 @@ package cool.sparks.security.dao.po;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -11,7 +13,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @TableName("sys_menu")
-public class MenuPo {
+public class MenuPo implements Serializable {
     private long menuId;
     private String menuName;
     private Long parentId;

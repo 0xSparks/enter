@@ -1,4 +1,4 @@
-package cool.sparks.security.service;
+package cool.sparks.security.service.permission;
 
 import cool.sparks.security.dao.po.UserPo;
 
@@ -11,8 +11,10 @@ import java.util.Set;
 public interface PermissionService {
 
     /**
-     * 获取菜单权限
+     * 判断用户有否有权限
+     * @param userId 用户ID
+     * @param permissions 权限
      */
-    public Set<String> getPermissions(UserPo user);
+    public boolean hasAnyPermissions(Long userId, String... permissions);
 
 }

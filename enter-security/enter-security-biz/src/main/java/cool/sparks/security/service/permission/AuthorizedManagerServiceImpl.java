@@ -1,4 +1,4 @@
-package cool.sparks.security.service.auth;
+package cool.sparks.security.service.permission;
 
 import org.springframework.stereotype.Service;
 
@@ -10,6 +10,9 @@ import org.springframework.stereotype.Service;
 public class AuthorizedManagerServiceImpl implements AuthorizedManagerService{
     @Override
     public boolean hasPermission(String permission) {
+        if(permission == null){
+            return true;
+        }
         System.out.println("进入AuthorizedManagerService"+permission);
         return false;
     }
